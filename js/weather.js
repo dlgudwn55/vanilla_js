@@ -7,8 +7,8 @@ function onGeoOk(position) {
     fetch(url).then(Response => Response.json()).then(data => {
         const weather = document.querySelector("#weather span:first-child");
         const city = document.querySelector("#weather span:last-child");
-        city.innerText = `\nCiti: ${data.name}`;
-        weather.innerText = `Weather: ${data.weather[0].main}, ${data.main.temp} ℃`;
+        city.innerText = `\n위치: ${data.name}`;
+        weather.innerText = `날씨: ${data.weather[0].main}, ${data.main.temp} ℃`;
     });
 }
 

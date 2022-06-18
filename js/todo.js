@@ -27,7 +27,7 @@ function paintTodo(todoObj) {
     const div = document.createElement("div");
     const button = document.createElement("button");
     div.innerText = todoObj.text;
-    button.innerText = "Delete";
+    button.innerText = "지우기";
     button.addEventListener("click", deleteTodo);
 
     li.appendChild(div);
