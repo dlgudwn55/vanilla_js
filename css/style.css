@@ -1,0 +1,83 @@
+body {
+    color: white;
+    text-align: center;
+}
+
+input {
+    width: 400px;
+    font-size: 15px;
+}
+
+div {
+    background-color: rgba(224, 224, 224, 0.5);
+    border-radius: 5px;
+    color: black;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    background-color: none;
+    border-radius: 5px;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+}
+
+ul li {
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul li div {
+    background-color: rgb(0, 0, 0, 0);
+    font-size: 17px;
+    float: left;
+    width: 250px;
+}
+
+ul li button {
+    margin-bottom: 2px;
+}
+
+ul li button:nth-last-of-type(1) {
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#calendar {
+    margin-top: 100px;
+    margin-bottom: 2px;
+}
+
+#clock {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    letter-spacing: 2px;
+    font-size: 55px;
+}
+
+#weather {
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#greeting {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+#todo-div {
+    margin: 0 auto;
+    width: 400px;
+}
+
+#quote {
+    font-style: italic;
+    width: 600px;
+    margin-top: 10px;
+}
